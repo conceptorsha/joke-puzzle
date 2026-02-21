@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("JOKE"),
+        title: const Text("JOKE puzzle"),
         backgroundColor: Colors.amber,
       ),
       body: SizedBox.expand(

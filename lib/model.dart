@@ -16,6 +16,7 @@ class Joke {
       setup: json['setup']! as String,
       punchline: json['punchline']! as String,
       id: json['id']! as int,
+
     );
   }
 
@@ -24,7 +25,7 @@ class Joke {
   final String punchline;
   final int id;
 }
-
+// future call function
 Future<Joke> fetchRandomJoke() async {
   try {
     final response = await dio.get('https://official-joke-api.appspot.com/random_joke');
