@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 final dio = Dio();
-
+//class
 class Joke {
   Joke({
     required this.type,
