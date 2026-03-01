@@ -48,6 +48,31 @@ class Home extends StatelessWidget {
             );
           },
         ),
+
+
+
+      ),
+    );
+  }
+}
+class PracticalTest extends ConsumerWidget {
+  const PracticalTest({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("my app",
+        style: TextStyle(
+            fontSize: 10,
+            fontWeight: FontWeight.bold,
+            color: Colors.red,
+           // alignment:Alignment.center
+        ),
+        ),
+      ),
+      body:Column(
+
       ),
     );
   }
