@@ -41,7 +41,7 @@ class Home extends StatelessWidget {
                   bottom: 20,
                   child: ElevatedButton(
                     onPressed: () => ref.invalidate(randomJokeProvide),
-                    child: const Text('Get another joke'),
+                    child: const Text('Get the joke'),
                   ),
                 ),
               ],
